@@ -1,0 +1,190 @@
+#geral{
+	border:1px solid black; 
+	margin:auto;
+	height:auto; 
+	padding-left:3%; 
+	padding-right:3%;
+	width:100%;
+}
+
+#topo{
+	height:200px;
+	display: flex;
+	justify-content:space-between;
+	}
+
+#palestra{
+  font-family:Montserrat, sans-serif; 
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.1rem;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #e35d29;
+  margin-top:40px;
+}
+
+#conexao{
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.1rem;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #29006a;
+  margin-left:150px;
+  position:relative;
+  top:-46px;
+}
+
+.inscricao{
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;
+  border: solid 0.5px #090909;
+  background-color: #29006a;
+  margin-top:50px;  
+}
+
+.participar{
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;
+  border: solid 0.5px #090909;
+  background-color: #29006a;
+  float:right;
+  margin-top:50px;
+  display:none;
+}
+
+.inscrevase{
+  font-family: Montserrat, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2rem;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #e35d29;
+  margin-top:5%;
+}
+
+.card-img-top{
+	width:100%;
+	height:210px;
+	background-color:#ccc;
+}
+
+.card-title{
+  font-family: Montserrat, sans-serif;
+  font-size: 0.8rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: bold;
+  line-height: 1rem;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #29006a;
+  margin:10px 1%;
+}
+
+#turnos{
+	display: flex;
+	justify-content:space-between;
+}
+
+ul {
+
+  list-style-type: none;
+
+}
+
+
+ul li.texto-lista:before {
+
+  content: '';
+
+  display: inline-block;
+
+  height: 8px;
+
+  width: 8px;
+
+   background-size: 8px;
+
+  background-image: url("images/pingao.svg");
+
+  background-repeat: no-repeat;
+
+  margin-right: 5px;
+}
+
+.texto-lista{
+  font-size: 0.8rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #29006a;
+
+}
+
+ul li.pingo:before {
+
+  content: '';
+
+  display: inline-block;
+
+  height: 6px;
+
+  width: 6px;
+
+   background-size: 6px;
+
+  background-image: url("images/pingo.svg");
+
+  background-repeat: no-repeat;
+
+  margin-right: 6px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 900px) and (min-width: 768px) {  
+	.participar{
+		display:block;
+		position:relative;
+		top:-20px;		
+		
+	}
+	#bt-participar{
+		margin:auto;
+	}
+}
+
+@media screen and (max-width: 767px) and (min-width: 600px) {  
+	
+	.inscricao{
+		
+	}
+
+	
+	
+	.participar{
+		display:block;
+		position:relative;
+		top:-20px;		
+		
+	}
+	#bt-participar{
+		margin:auto;
+	}
+}
