@@ -40,6 +40,10 @@
   top:-35px;
 }
 
+#apoiadores{
+	border:0px;
+}
+
 .inscricao{
   width: 180px;
   height: 60px;
@@ -169,34 +173,43 @@ ul li.pingo:before {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 900px) and (min-width: 768px) {  
-	.participar{
-		display:block;
-		position:relative;
-		top:-20px;		
-		
-	}
-	#bt-participar{
+@media screen and (max-width: 420px) and (min-width: 250px){
+	#bt{
 		margin:auto;
+		top:-95px;
+		position:relative;
 	}
 }
 
 @media screen and (max-width: 767px) and (min-width: 600px) {  
 	
-	.inscricao{
-		
-	}
-
-	
-	
 	.participar{
 		display:block;
 		position:relative;
-		top:-20px;		
-		
+		top:-20px;			
 	}
+	
 	#bt-participar{
 		margin:auto;
 	}
 }
 
+@media screen and (max-width: 991px) {  
+	#apoiadores{
+		display:none;
+	}
+	
+	#apoiadores2{
+		display:block;
+	}
+}
+
+@media screen and (min-width: 992px) {  
+	#apoiadores{
+		display:block;
+	}
+	
+	#apoiadores2{
+		display:none;
+	}
+}
